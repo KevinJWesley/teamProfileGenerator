@@ -1,7 +1,7 @@
 const inquirer = require("inquirer");
 const fs = require("fs");
 
-// questions to first prompt manager
+// questions to first prompt user
 const questions = [
   {
     type: "input",
@@ -23,11 +23,11 @@ const questions = [
     message: "What is your office number?",
     name: "office",
   },
-  {
-    type: "input",
-    message: "",
-    name: "",
-  },
+  //   {
+  //     type: "input",
+  //     message: "",
+  //     name: "",
+  //   },
 ];
 
 // function to start questions
